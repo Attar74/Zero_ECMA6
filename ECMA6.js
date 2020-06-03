@@ -44,3 +44,33 @@ Template literals  `   `
 using it is making things more eaiser
 
 */
+
+/****************************Lesson seven**********************/
+/*
+Spread Operator.....      === applay at old JS
+
+///// Array COPY using spread/////
+let arr = ["mahmoud", "ahmed", "sayed"];
+let arr1 = [...arr];
+arr1.push("samir");
+console.log(arr);
+console.log(arr1);
+////////////////////////
+
+*/
+
+/****************************Lesson eight**********************/
+
+/*
+Default Parameters
+*/
+
+function show(username = "Default User", role = "Default role", theme = "Default theme") {
+
+  return `${username} your role is ${role} and your theme is ${theme}`;
+
+}
+
+
+console.log(show("Mahmoud","Developer", "Red"));
+console.log(show("Mahmoud"));
